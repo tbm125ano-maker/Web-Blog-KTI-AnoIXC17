@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #A85434;
+    align-items: center;
+    padding: 0 2rem;
+    height: 70px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    padding: 0;
+    z-index: 1000;
+}
+.banner{
+    color: beige;
+    font-size: 20px;
+    background-color: #E69D45;
+    padding: 10px;
+    font-family:'Playfair Display', serif;
+}
+nav {
+    padding-right: 2rem;
+}
+nav a{
+    padding: 20px 25px;
+    text-decoration: none;
+    color: beige;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover{
+    color:#F5F5DC;
+    transition: 0.8s;
+    background-color: rgb(130, 3, 3);
+    padding: 10px;
+}
+
+
+section.home {
+    height: 700px; 
+    background-size: cover ;
+    background-repeat: repeat; 
+    background-attachment:scroll;
+    background-image: url("bg2.png"); 
+    background-position: right;
+}
+
+.containerhome {
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.judulhome {
+    font-size: 40px; 
+    text-align: center;
+    background-color: #E69D45;
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
+    font-family:'Playfair Display', serif;
+}
+
+.deskhome {
+    color: white; 
+    font-size: 19px; 
+    background-color:#A85434;
+    text-align: justify;
+    padding: 30px;
+    border-radius: 20px 20px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
