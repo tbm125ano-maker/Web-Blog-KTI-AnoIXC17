@@ -69,11 +69,105 @@ section.home {
 
 .deskhome {
     color: white; 
-    font-size: 19px; 
+    font-size: 15px; 
     background-color:#A85434;
     text-align: justify;
     padding: 30px;
     border-radius: 20px 20px 20px 20px;
     font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
 }
-
+section.LearnMore{
+    background-color: #A85434;
+    height: 30px;
+    width: 150px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 40px;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family:'Playfair Display', serif ;
+}
+section.about {
+    padding: 320px 20px;
+    margin-left: 70%;
+}
+section.about img{
+    height: 300px;
+    margin: 0;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.deskabout{
+    width: 400px;
+    text-align: center;
+}
+.deskabout h2 {
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.deskabout p {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-align: justify;
+}
+section.howto{
+    margin-left: 25%;
+    height: 640px;
+    width: 900px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 60px; /* Memberikan jarak yang pas antara teks dan gambar */   
+}
+.howto img{
+    flex: 1;
+    display: flex;
+    height:500px;
+    border-radius: 15px; /* Sudut melengkung agar estetik */
+    box-shadow: 20px 20px 0px #E69D45; /* Aksen dekoratif di belakang foto */
+    object-fit: cover; /* Memastikan gambar mengisi box dengan rapi */
+    transition: transform 0.3s ease;
+}
+.howto img:hover {
+    transform: scale(1.03); /* Efek zoom halus saat di-hover */
+}
+.deskHowto{
+    display: flex;
+    gap:60px;
+    text-align: justify;
+}
+.dokumentasi{
+    margin : 20px;
+}
+.deskHowto h3{
+    text-align: center;
+}
+.cardProfile{
+    background-color:#A85434;
+    padding:15px;
+    width:300px;
+    margin : auto;
+    text-align: center;
+    margin-left:80%;
+}
+.imgProfile img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
